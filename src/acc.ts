@@ -24,9 +24,14 @@ const loan_pass = decrypt(loan_secret, "admin");
 const quan_secret = `<uNN_b>"05q88)c"]S_CV^hgx_V`;
 const quan_pass = decrypt(quan_secret, "admin");
 
-console.log("nguyen Pass: ", nguyen_pass);
-console.log("hue Pass: ", hue_pass);
+console.log("Nguyen: bsnguyen /", nguyen_pass);
+console.log("hue: 0389979282 / admin /", hue_pass);
 console.log("yen Pass: ", yen_pass);
 console.log("dai Pass: ", dai_pass);
 console.log("loan Pass: ", loan_pass);
 console.log("quan Pass: ", quan_pass);
+console.log("lequangdai: 0906881508 / lddai /", decrypt("UdzzX:M2gtGV;OwvmeyuKp-", "lddai"));
+console.log("Chị Hồng Tạp hóa: 0398208578 / admin /", decrypt('<uNN_b!.r@Y8:"/)]G?y[/]', "admin"));
+console.log("10. Long: 0888666390 / admin /", decrypt('<uNN_b!.r@Y8:"/)]G?y[/]', "admin"));
+console.log("11. Long: 0983364383 / hongthai /", decrypt('CiTN<kc(9X"cUPH*RT_IZ6$', "hongthai"));
+console.log("12. Hiền: 0866547802 / admin /", decrypt('<uNN_b!.r@Y8:"/)]G?y[/]', "admin"));

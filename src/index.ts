@@ -1,3 +1,1 @@
-import 'reflect-metadata'
-
-import './class-transformer/product'
+import './acc'
