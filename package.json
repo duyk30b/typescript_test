@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bignumber.js": "^9.1.2",
     "class-transformer": "^0.5.1",
     "nodemon": "^3.0.2",
     "reflect-metadata": "^0.1.14",

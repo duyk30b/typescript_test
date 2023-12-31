@@ -1,7 +1,7 @@
 import { decrypt } from "./helper/string.helper";
 
 // Nguyên 0362090292
-const nguyen_secret = "{z!W};jW<'l,yq(8b<6Ig2t0IMlXA";
+const nguyen_secret = "{z!W};jW<'l,yq(8bG358MS3gXlt";
 const nguyen_pass = decrypt(nguyen_secret, "bsnguyen");
 
 // Huế 0389979282
@@ -24,7 +24,7 @@ const loan_pass = decrypt(loan_secret, "admin");
 const quan_secret = `<uNN_b>"05q88)c"]S_CV^hgx_V`;
 const quan_pass = decrypt(quan_secret, "admin");
 
-console.log("Nguyen: bsnguyen /", nguyen_pass);
+console.log("Nguyen-0362090292: bsnguyen /", nguyen_pass);
 console.log("hue: 0389979282 / admin /", hue_pass);
 console.log("yen Pass: ", yen_pass);
 console.log("dai Pass: ", dai_pass);
